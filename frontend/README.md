@@ -1,16 +1,23 @@
-# React + Vite
+#### DeepFake Guard
+A full-stack AI application that detects synthetic faces using Deep Learning.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##  Features
+- **MTCNN**: For precise face extraction and alignment.
+- **EfficientNet-B0**: High-accuracy deep learning model for artifact detection.
+- **React Frontend**: Modern, dark-mode UI for seamless image analysis.
+- **Flask API**: Robust backend to handle model inference.
 
-Currently, two official plugins are available:
+## Setup
+### Backend
+1. `cd backend`
+2. `pip install -r requirements.txt`
+3. `python app.py`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Frontend
+1. `cd frontend`
+2. `npm install`
+3. `npm run dev`
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Model Performance
+- **Training Dataset**: Celeb-DF
+- **Detection Target**: GANs (StyleGAN), FaceSwaps.
