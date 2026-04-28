@@ -2,10 +2,10 @@
 A full-stack AI application that detects synthetic faces using Deep Learning.
 
 ##  Features
-- **MTCNN**: For precise face extraction and alignment.
-- **EfficientNet-B0**: High-accuracy deep learning model for artifact detection.
-- **React Frontend**: Modern, dark-mode UI for seamless image analysis.
-- **Flask API**: Robust backend to handle model inference.
+ **MTCNN**: For precise face extraction and alignment.
+ **EfficientNet-B0**: High-accuracy deep learning model for artifact detection.
+ **React Frontend**: Modern, dark-mode UI for seamless image analysis.
+ **Flask API**: Robust backend to handle model inference.
 
 ## Setup
 ### Backend
