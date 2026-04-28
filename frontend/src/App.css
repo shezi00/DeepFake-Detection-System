@@ -1,0 +1,112 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Full background */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url('bg.jpg') no-repeat center center/cover;
+  height: 100vh;
+  color: white;
+}
+
+/* Overlay (dark glass effect) */
+.app-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* Card */
+.card {
+  background: rgba(255, 255, 255, 0.975);
+  backdrop-filter: blur(20px);
+  padding: 50px;
+  width: 420px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+/* Title */
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #111827; /* dark black/gray (better than pure black) */
+}
+
+.lens {
+  color: #4f46e5; /* premium indigo */
+}
+
+.subtitle {
+  font-size: 14px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+/* File input */
+.file-input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px dashed rgba(255, 255, 255, 0.4);
+  background: transparent;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.file-input:hover {
+  border-color: #60a5fa;
+}
+
+/* Button */
+.button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #6366f1, #3b82f6);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+/* Result */
+.result {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Real / Fake styles */
+.real {
+  color: #22c55e;
+}
+
+.fake {
+  color: #ef4444;
+}
